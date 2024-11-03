@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f8f8f8;
+}
+
+#nav-part1 img {
+    height: 50px;
+}
+
+#nav-part2 {
+    display: flex;
+    align-items: center;
+}
+
+#nav-part2 h2 {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+#button1, #button2, #button3, #button4, #button7, #button8, #button9 {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+#heading1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+#heading1 h1 {
+    font-size: 2rem;
+}
+
+#heading2, #heading3, #heading4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#img1, #img2, #img4, #img5 {
+    padding: 1rem;
+}
+
+#page2, #page3, #page4, #page5, #footer {
+    padding: 2rem;
+    text-align: center;
+}
+
+#footer {
+    background-color: #222;
+    color: white;
+}
+
+#footer h2, #footer h3, #footer h4 {
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    #nav-part2 h2 {
+        font-size: 0.9rem;
+    }
+    #heading1 h1 {
+        font-size: 1.5rem;
+    }
+    #button1, #button2, #button3, #button4, #button7, #button8, #button9 {
+        font-size: 0.8rem;
+        padding: 0.3rem;
+    }
+}
